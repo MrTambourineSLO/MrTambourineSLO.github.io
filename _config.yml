@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Saso Miočinovič"
+title: "{ Sašo Miočinovič }"
+description: "Predstavitvena stran lovca na delo, Sašo Miočinoviča."
+keywords: ""
 favicon: "/img/favicon.ico"
 
 ################
@@ -41,24 +41,25 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/LoopingVS.gif"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+shuffle: False # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
-
-me-img: "/img/jetpacktocat.png"
+  - text: "<span id='gray'>System</span>.<span id='green'>Console</span>.<span id='white'>WriteLine</span>(<span id='red'>''Saso Miocinovic Portfolio''</span>);"
+  - text: "<span id='blue'>string </span><span id='white'>ime</span> = <span id='red'>''Sašo Miočinovič''</span>;"
+  - text: "<span id='blue'>int </span><span id='white'>starost</span> = <span id='red'>32</span>;"
+  - text: "<span id='blue'>string</span>[] <span id='white'>znanja</span> = {<span id='green'>''JavaScript'',''Electron'' ,''C#'',''HTML'',''CSS'',''Git''</span>};"
+me-img: "/img/avatar.png"
 
 ##############################
 # Color the browser elements #
@@ -85,48 +86,48 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-enable-gesture-navigation: True
+#enable-gesture-navigation: True
 
-post-preview-words: 96
+#post-preview-words: 96
 
-paginate: 5
+#paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+#email-share: True
+#fb-share: True
+#twitter-share: True
+#linkedin-share: True
+#reddit-share: True
+#google-plus-share: True
+#tumblr-share: True
+#pinterest-share: True
+#pocket-share: True
+#vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+#disqus-shortname: "panossakkos"
 
-syntax-highlight: True
+#syntax-highlight: True
 
 ############
 # Timeline #
 ############
 
-events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+#events:
+#  - image: "/img/timeline/spidertocat.png"
+#    date: "September 2013 - Today"
+#    description: "Saving the neighborhood!"
+#  - image: "/img/timeline/baracktocat.jpg"
+#    date: "September 2007 - August 2013"
+#    description: "Started coding"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/lbulb1.png"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "saso.miocinovic@gmail.com"
 
 ################
 # Author Blurb #
@@ -137,23 +138,24 @@ email: "your@email.here"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/avatar.png"
 
 ##################
 # Social Buttons #
 ##################
 
-social:
-  - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
-  - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+#social:
+#  - title: "facebook"
+#    url: "https://facebook.com/"
+#  - title: "twitter"
+#    url: "https://twitter.com/"
+#  - title: "github"
+#    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+#  - title: "bitcoin"
+#    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+#  - title: "rss"
+#    url: "/feed.xml"
+
 
 ############
 # 404 page #
@@ -165,9 +167,9 @@ social:
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+#keybase-username: johnsmith
+#keybase-in-social: True
+#keybase-in-footer: True
 
 ################################################################################
 
@@ -176,10 +178,10 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
+  Curiculum Vitae: 'about'
+  
+  Znanja: 'timeline'
+  Kontakt: 'contact'
 
 # Exclusion list from the generated _site
 

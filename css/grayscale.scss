@@ -173,11 +173,13 @@ a {
     .intro-body {
         display: table-cell;
         vertical-align: middle;
+        background-color: rgba(0,0,0,0.5);
         .brand-heading {
             font-size: 40px;
         }
         .intro-text {
             font-size: 18px;
+            background: black;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }
@@ -445,3 +447,25 @@ body {
 .fourofour {
   border: 1px solid $primary-color !important;
 }
+/*Moj CSS*/
+/*Visual studio color scheme*/
+#gray{
+    font-weight: 700;
+    color: #4A483B;
+    
+}
+#green{
+    
+    color: #398C6B;
+
+}
+#white{
+    color: whitesmoke;
+}
+#red{
+    color: #915136;
+}
+#blue{
+    color:   #4070FF;
+}
+
